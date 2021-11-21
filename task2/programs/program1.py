@@ -3,4 +3,5 @@
 one = int(input('введите 1 число'))
 two = int(input('введите 2 число'))
 three = int(input('введите 3 число'))
-print('Сумма ваших чисел равна: ' + (one + two + three))
+sum = one+two+three
+print('Сумма ваших чисел равна: ' + str(sum))
