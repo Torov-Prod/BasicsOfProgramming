@@ -6,6 +6,6 @@ time = int(input('Введите количество секунд:'))
 
 day = time // 86400
 hour = (time % 86400) // 3600
-minut = ((time % 86400) % 3600) // 60
+minute = ((time % 86400) % 3600) // 60
 second = ((time % 86400) % 3600) % 60
-print(day, ': суток, ', hour, ': часов, ', minut, ': минут, ', second, ': секунд')
+print(day, ': суток, ', hour, ': часов, ', minute, ': минут, ', second, ': секунд')
